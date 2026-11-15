@@ -1,43 +1,43 @@
-Index: before minimizers: 47.41 MB
-Minimizers: after hashes: 97.33 MB
-Minimizers: after positions: 124.11 MB
-Minimizers: after sorting: 124.12 MB
-Index: after minimizers: 83.12 MB
-Number of minimizers: 166885
-Index: after dictionary construction: 113.66 MB
-Number of unique k-mers: 158533
-Minimizers: after hashes: 113.69 MB
-Minimizers: after positions: 113.70 MB
-Minimizers: after sorting: 113.70 MB
-Minimizers: after hashes: 112.95 MB
-Minimizers: after positions: 112.95 MB
-Minimizers: after sorting: 112.95 MB
-Minimizers: after hashes: 112.45 MB
-Minimizers: after positions: 112.45 MB
-Minimizers: after sorting: 112.45 MB
-Minimizers: after hashes: 90.94 MB
-Minimizers: after positions: 90.94 MB
-Minimizers: after sorting: 90.94 MB
-Minimizers: after hashes: 86.72 MB
-Minimizers: after positions: 86.72 MB
-Minimizers: after sorting: 86.72 MB
-Minimizers: after hashes: 86.44 MB
-Minimizers: after positions: 86.44 MB
-Minimizers: after sorting: 86.44 MB
-Minimizers: after hashes: 83.88 MB
-Minimizers: after positions: 83.88 MB
-Minimizers: after sorting: 83.88 MB
-Minimizers: after hashes: 69.94 MB
-Minimizers: after positions: 69.97 MB
-Minimizers: after sorting: 69.97 MB
-Minimizers: after hashes: 66.34 MB
-Minimizers: after positions: 66.34 MB
-Minimizers: after sorting: 66.34 MB
-Minimizers: after hashes: 65.28 MB
-Minimizers: after positions: 65.28 MB
-Minimizers: after sorting: 65.28 MB
-Runtime: 6.98 seconds, limit: 130
+Index: before minimizers: 44.79 MB
+Minimizers: after hashes: 97.21 MB
+Minimizers: after positions: 110.33 MB
+Minimizers: after sorting: 110.37 MB
+Index: after minimizers: 53.22 MB
+Number of minimizers: 166756
+Index: after dictionary construction: 81.77 MB
+Number of unique k-mers: 158322
+Minimizers: after hashes: 81.81 MB
+Minimizers: after positions: 81.81 MB
+Minimizers: after sorting: 81.81 MB
+Minimizers: after hashes: 81.93 MB
+Minimizers: after positions: 81.93 MB
+Minimizers: after sorting: 81.93 MB
+Minimizers: after hashes: 91.45 MB
+Minimizers: after positions: 91.45 MB
+Minimizers: after sorting: 91.45 MB
+Minimizers: after hashes: 91.48 MB
+Minimizers: after positions: 91.48 MB
+Minimizers: after sorting: 91.48 MB
+Minimizers: after hashes: 91.50 MB
+Minimizers: after positions: 91.50 MB
+Minimizers: after sorting: 91.50 MB
+Minimizers: after hashes: 91.54 MB
+Minimizers: after positions: 91.54 MB
+Minimizers: after sorting: 91.54 MB
+Minimizers: after hashes: 91.54 MB
+Minimizers: after positions: 91.54 MB
+Minimizers: after sorting: 91.54 MB
+Minimizers: after hashes: 91.55 MB
+Minimizers: after positions: 91.55 MB
+Minimizers: after sorting: 91.55 MB
+Minimizers: after hashes: 91.55 MB
+Minimizers: after positions: 91.55 MB
+Minimizers: after sorting: 91.55 MB
+Minimizers: after hashes: 91.55 MB
+Minimizers: after positions: 91.55 MB
+Minimizers: after sorting: 91.55 MB
+Runtime: 8.62 seconds, limit: 130
 Time requirement: PASS
-Maximum memory: 124.08 MB
+Maximum memory: 110.18 MB
 Memory requirement: PASS
 Peak occurred during: Building index
