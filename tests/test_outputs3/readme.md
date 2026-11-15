@@ -1,0 +1,1 @@
+wykorzystano numpy.fromiter bo np.array nie moze przyjmowac generatora jako wejscia - dlatego trzeba bylo dostosowac typ
