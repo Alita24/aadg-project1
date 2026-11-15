@@ -13,7 +13,7 @@ if len(sys.argv) > 1:
     mapper_script = sys.argv[1]
 
 # Output directory
-output_dir = "test_outputs2"
+output_dir = "tests/test_outputs2"
 os.makedirs(output_dir, exist_ok=True)
 
 # A read is correctly mapped if both coordinates are within this distance
