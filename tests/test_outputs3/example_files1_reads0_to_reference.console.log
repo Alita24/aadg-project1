@@ -1,0 +1,32 @@
+Index: before minimizers: 44.81 MB
+Minimizers: after hashes: 52.44 MB
+Minimizers: after positions: 58.11 MB
+Index: after minimizers: 50.48 MB
+Number of minimizers: 167119
+Index: after dictionary construction: 81.94 MB
+Number of unique k-mers: 158765
+Minimizers: after hashes: 81.94 MB
+Minimizers: after positions: 81.95 MB
+Minimizers: after hashes: 82.01 MB
+Minimizers: after positions: 82.01 MB
+Minimizers: after hashes: 91.52 MB
+Minimizers: after positions: 91.52 MB
+Minimizers: after hashes: 91.53 MB
+Minimizers: after positions: 91.53 MB
+Minimizers: after hashes: 91.55 MB
+Minimizers: after positions: 91.55 MB
+Minimizers: after hashes: 91.58 MB
+Minimizers: after positions: 91.58 MB
+Minimizers: after hashes: 91.58 MB
+Minimizers: after positions: 91.58 MB
+Minimizers: after hashes: 91.61 MB
+Minimizers: after positions: 91.61 MB
+Minimizers: after hashes: 91.61 MB
+Minimizers: after positions: 91.61 MB
+Minimizers: after hashes: 91.61 MB
+Minimizers: after positions: 91.61 MB
+Runtime: 8.30 seconds, limit: 130
+Time requirement: PASS
+Maximum memory: 91.61 MB
+Memory requirement: PASS
+Peak occurred during: Computing DP

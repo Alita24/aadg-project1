@@ -81,18 +81,23 @@ class MinimizerWinnowIndex:
         (najbardziej z lewej jezeli wartosci sa rownae)
         """
         k, w = self.k, self.w
-        h = [hash(s[i:i+k]) for i in range(len(s)-k+1)]
+        n = len(s) - k + 1
+        if n < w:                      # sekwencja za krotka, nie ma zadnego okna
+            return []
+        h = numpy.fromiter((hash(s[i:i+k]) for i in range(n)), dtype=numpy.int64, count=n) #bierze kazdy kmer i haszuje go
         print_memory("Minimizers: after hashes")
-        pos = set()
-        for j in range(len(h)-w+1):
+        
+        pos, last = [], -1
+        for j in range(len(h)-w+1): #przechodzimy po kazdym oknie
             window = h[j:j+w]
-            pos.add(j + window.index(min(window)))
+            p = j + int(h[j:j+w].argmin()) #wyciagamy zahashowane kmery z okna
+            if p != last:        # wybrana pozycja nigdy nie zmienia sie na lewo => nie potrzeba nam sortowania ani set'u
+                pos.append(p)
+                last = p
         print_memory("Minimizers: after positions")
 
-        result = sorted(pos)
-        print_memory("Minimizers: after sorting")
-        return result
-        #return sorted(pos)
+        # print_memory("Minimizers: after sorting")
+        return pos
  
     def query(self, read):
         """
