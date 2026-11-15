@@ -26,11 +26,11 @@ konstrukcja minimizerow przy wiekszych plikach przekraczala dozwolona granice <1
 
 ### proponowane wytlumaczenia gdzie jest duzo pamieci jest zuzywane:
 - pythonowa lista przetrzymujaca zahashowane kmery wraz z set() 
-  - lista `h` ma po jednym obiekcie int na kazdy k-mer referencji (~20M), co w logu dalo skok z 86 MB do 415 MB ("after hashes")
-  - `set()` z pozycjami minimizerow, a potem `sorted(pos)`, podniosl zuzycie do ok. 736 MB ("after sorting")
-  - lista i set istnieja jednoczesnie, dlatego szczyt wystepuje wewnatrz funkcji `minimizers`
+- lista `h` ma po jednym obiekcie int na kazdy k-mer referencji (~20M), co w logu dalo skok z 86 MB do 415 MB ("after hashes")
+- `set()` z pozycjami minimizerow, a potem `sorted(pos)`, podniosl zuzycie do ok. 736 MB ("after sorting")
+- lista i set istnieja jednoczesnie, dlatego szczyt wystepuje wewnatrz funkcji `minimizers`
 - slownik z unikatowymi stringami k-merow wraz z listami dla kazdego klucza
-  - ok. 3,1 mln unikatowych kluczy, kazdy to osobny string (20 znakow) i osobna lista pozycji
+- ok. 3,1 mln unikatowych kluczy, kazdy to osobny string (20 znakow) i osobna lista pozycji
 
 ### kolejne kroki
 - zamiast duzej pythonowej listy obiektow `int` wprowadzamy niskopoziomowa tablice numpy.array (w C)

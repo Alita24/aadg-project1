@@ -1,0 +1,43 @@
+Index: before minimizers: 44.61 MB
+Minimizers: after hashes: 97.05 MB
+Minimizers: after positions: 110.16 MB
+Minimizers: after sorting: 110.20 MB
+Index: after minimizers: 52.92 MB
+Number of minimizers: 166583
+Index: after dictionary construction: 81.60 MB
+Number of unique k-mers: 158239
+Minimizers: after hashes: 81.63 MB
+Minimizers: after positions: 81.64 MB
+Minimizers: after sorting: 81.64 MB
+Minimizers: after hashes: 81.78 MB
+Minimizers: after positions: 81.79 MB
+Minimizers: after sorting: 81.79 MB
+Minimizers: after hashes: 91.30 MB
+Minimizers: after positions: 91.30 MB
+Minimizers: after sorting: 91.30 MB
+Minimizers: after hashes: 91.31 MB
+Minimizers: after positions: 91.31 MB
+Minimizers: after sorting: 91.31 MB
+Minimizers: after hashes: 91.32 MB
+Minimizers: after positions: 91.32 MB
+Minimizers: after sorting: 91.32 MB
+Minimizers: after hashes: 91.37 MB
+Minimizers: after positions: 91.37 MB
+Minimizers: after sorting: 91.37 MB
+Minimizers: after hashes: 91.37 MB
+Minimizers: after positions: 91.37 MB
+Minimizers: after sorting: 91.37 MB
+Minimizers: after hashes: 91.37 MB
+Minimizers: after positions: 91.37 MB
+Minimizers: after sorting: 91.37 MB
+Minimizers: after hashes: 91.37 MB
+Minimizers: after positions: 91.37 MB
+Minimizers: after sorting: 91.37 MB
+Minimizers: after hashes: 91.37 MB
+Minimizers: after positions: 91.37 MB
+Minimizers: after sorting: 91.37 MB
+Runtime: 7.98 seconds, limit: 130
+Time requirement: PASS
+Maximum memory: 110.12 MB
+Memory requirement: PASS
+Peak occurred during: Building index
