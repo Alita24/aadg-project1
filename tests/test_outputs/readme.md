@@ -1,6 +1,6 @@
 # Wyniki Testów - Readme
 
-Ten dokument zawiera wyniki porównań oraz informacje o ilości miejsca zajmowanego przez oryginalny mapper. Dostarcza wglądu w wydajność i efektywność procesu mapowania.
+Ten dokument zawiera wyniki porównań oraz informacje o ilości miejsca zajmowanego przez pierwszą wersję mappera. Dostarcza wglądu w wydajność i efektywność procesu mapowania - nie na serwerze students.
 
 ## Zawartość
 - **Wyniki Porównań**: Szczegółowe rezultaty testów porównawczych.
@@ -19,4 +19,10 @@ W folderze znajdują się następujące pliki generowane podczas testów:
 
 Każdy plik wynikowy jest nazwany zgodnie z formatem `[example_dir]_[reads_file]_to_[reference_file]`, aby uniknąć konfliktów nazw i ułatwić analizę.
 
+
+## podsumowanie
+wszystkie wymagania zadania są spełnione 
+
+### kolejne kroki
+testujemy na serwerze 'students'
 
