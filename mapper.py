@@ -14,11 +14,9 @@ class MinimizerWinnowIndex:
 
     def __init__(self, text, k, w):
         self.k = k
-        self.w = w
+        self.w = w #ilosc kmerow
         self.kmers = defaultdict(list)      # k-mer -> positions in the reference
-
-
-        for i in self.minimizers(text):
+        for i in self.minimizers(text): #chce tu zwrocic pozycje dla kmerow w reference
             self.kmers[text[i:i+k]].append(i)
 
     def minimizers(self, s):
@@ -28,14 +26,12 @@ class MinimizerWinnowIndex:
         (najbardziej z lewej jezeli wartosci sa rownae)
         """
         k, w = self.k, self.w
-        h = [hash(s[i:i+k]) for i in range(len(s)-k+1)]
-
+        h = [hash(s[i:i+k]) for i in range(len(s)-k+1)] #bierze kazdy kmer i haszuje go
         pos = set()
-        for j in range(len(h)-w+1):
-            window = h[j:j+w]
-            pos.add(j + window.index(min(window)))
-
-        return sorted(pos)
+        for j in range(len(h)-w+1): #przechodzimy po kazdym oknie
+            window = h[j:j+w] #wyciagamy zahashowane kmery z okna
+            pos.add(j + window.index(min(window))) #dodajemy pozycje kmeru, ktorego zahashowana wartosc byla najmniejsza w oknie 
+        return sorted(pos) 
  
     def query(self, read):
         """
@@ -43,11 +39,9 @@ class MinimizerWinnowIndex:
         gdzie minimizer z odczytu wystepuje w sekwencji referencyjnej
         """
         hits = []
-        for i in self.minimizers(read):
-            for p in self.kmers.get(read[i:i+self.k], []):
-                hits.append((i, p))
-
-
+        for i in self.minimizers(read): #wyciagamy minimizery dla odczytu
+            for p in self.kmers.get(read[i:i+self.k], []): #przechodzimy przez liste pozycji w referencji gdzie znajduje sie ten kmer (lubn inny kmer, ktroy tak samo sie zahashowal)
+                hits.append((i, p)) #dodajemy pare (pozycja w odczycie, pozycja w referncji)
         return hits
 
 
