@@ -8,12 +8,12 @@ from pathlib import Path
 example_dirs = ["example_files1", "example_files2"]
 
 # Path to the mapper script (can be overridden: python3 run_tests.py other_mapper.py)
-mapper_script = "/Users/alicja/Documents/26:27Z/algo/project/debug_memory/mapper_memory.py"
+mapper_script = "debug_memory/mapper_memory.py"
 if len(sys.argv) > 1:
     mapper_script = sys.argv[1]
 
 # Output directory
-output_dir = "test_outputs2"
+output_dir = "test_outputs"
 os.makedirs(output_dir, exist_ok=True)
 
 # A read is correctly mapped if both coordinates are within this distance
