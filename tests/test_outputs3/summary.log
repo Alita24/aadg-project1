@@ -1,6 +1,6 @@
-example_files1_reads0_to_reference: return code 0, 8.5 s | mapped 100.0% of all, correct 100.0% of mappable, incorrect 0 (0.00% of mapped), 0.848 s/read
-example_files1_reads1_to_reference: return code 0, 76.4 s | mapped 100.0% of all, correct 100.0% of mappable, incorrect 0 (0.00% of mapped), 0.764 s/read
-example_files1_reads2_to_reference: return code 0, 77.8 s | mapped 100.0% of all, correct 100.0% of mappable, incorrect 0 (0.00% of mapped), 0.778 s/read
-example_files1_reads_unmappable_to_reference: return code 0, 12.6 s | no answers file example_files1/reads_unmappable.txt
-example_files2_reads20Ma_to_reference20M: return code 0, 790.1 s | mapped 100.0% of all, correct 100.0% of mappable, incorrect 0 (0.00% of mapped), 0.790 s/read
-example_files2_reads20Mb_to_reference20M: return code 0, 813.1 s | mapped 99.9% of all, correct 99.9% of mappable, incorrect 0 (0.00% of mapped), 0.813 s/read
+example_files1_reads0_to_reference: return code 0, 1.7 s | mapped 100.0% of all, correct 100.0% of mappable, incorrect 0 (0.00% of mapped), 0.173 s/read
+example_files1_reads1_to_reference: return code 0, 3.0 s | mapped 100.0% of all, correct 100.0% of mappable, incorrect 0 (0.00% of mapped), 0.030 s/read
+example_files1_reads2_to_reference: return code 0, 3.1 s | mapped 100.0% of all, correct 100.0% of mappable, incorrect 0 (0.00% of mapped), 0.031 s/read
+example_files1_reads_unmappable_to_reference: return code 0, 2.2 s | no answers file example_files1\reads_unmappable.txt
+example_files2_reads20Ma_to_reference20M: return code 0, 37.5 s | mapped 100.0% of all, correct 100.0% of mappable, incorrect 0 (0.00% of mapped), 0.037 s/read
+example_files2_reads20Mb_to_reference20M: return code 0, 38.0 s | mapped 100.0% of all, correct 100.0% of mappable, incorrect 0 (0.00% of mapped), 0.038 s/read
