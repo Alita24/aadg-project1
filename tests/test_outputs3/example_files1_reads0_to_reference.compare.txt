@@ -6,7 +6,7 @@ incorrectly mapped:          0  (0.00% of mapped)
    wrong coordinates:        0
    unmappable read mapped:   0
 mappable but not mapped:     0
-time:                        8.5 s  (0.848 s per read)
+time:                        1.7 s  (0.173 s per read)
 
 == wrong coordinates: read, reported start/end, true start/end ==
 
