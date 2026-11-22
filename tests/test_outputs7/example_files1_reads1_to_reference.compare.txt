@@ -1,0 +1,15 @@
+reads total:                 100
+mappable reads (in answers): 100
+reads mapped by mapper:      100  (100.00% of all reads)
+correctly mapped:            100  (100.00% of mappable)
+incorrectly mapped:          0  (0.00% of mapped)
+   wrong coordinates:        0
+   unmappable read mapped:   0
+mappable but not mapped:     0
+time:                        3.9 s  (0.039 s per read)
+
+== wrong coordinates: read, reported start/end, true start/end ==
+
+== unmappable reads that were mapped ==
+
+== mappable reads not mapped ==
